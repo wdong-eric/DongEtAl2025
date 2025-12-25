@@ -1,0 +1,31 @@
+# Mac OS DS_Store files
+**/.DS_Store
+
+# Python artifacts
+__pycache__/
+*.egg-info/
+
+# vscode artifacts
+.vscode/
+
+# timing data - only keep certain ones
+data/*
+!data/TimingDataRelease1/
+!data/atnf_glitch_table-20250609.csv
+!data/meertime-utmostPSR
+
+# (intermediate) inference data at pulsar and population level
+results-*/**/*.png
+results-*/**/*.pickle
+results-*/**/*.out
+results-*/**/*.err
+
+# assorted test files - probably not needed for main package
+tests/
+
+# Git history paths: git log --name-only --pretty="" | sort | uniq > <allpath>.txt
+allpath-git_history.txt
+
+# legacy paths no longer used
+legacy/
+*/legacy/

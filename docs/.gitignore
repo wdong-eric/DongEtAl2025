@@ -1,0 +1,14 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.toc
+*.out
+# beamer specific
+*.nav
+*.snm
+*.vrb

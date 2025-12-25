@@ -1,0 +1,24 @@
+[dataset]
+data_dir = "results-utmost/outdirDR1nlive2e3/s917-nw20-r8-tau2_9-Qc30_14-Qs30_14-lag2-EFAC0_4-EQUAD40_2-omgc_0"
+# Hierarchical directory structure: data_dir/hrchy_subdir
+hrchy_subdir = "hrchy/Qc-Qs-tau"
+
+# TODO: think about what to default (and overridable by CLI) (we also may want to keep comments)
+[indiv]
+selected_objects = [
+    ["J0729-1836"],  # peaky tau, Qs, Qc
+    ["J1326-5859"],  # peaky tau, Qs
+    ["J1849-0636"],  # peaky tau only
+    ["J1803-2137"],  # peaky Qs only
+    ["J0837-4135"],  # peaky Qc, Qs
+    ["J0437-4715", "J2241-5236"],  # MSPs
+    ["J1622-4950"],  # Magnetars
+    ["J1141-6545"],  # Pulsars with tau bimodality
+    ["J1136+1551", "J1935+1616"],  # Pulsars with autocorr-based tau
+]
+
+[indiv.rcparams]
+font_size = 14
+
+[hrchy.rcparams]
+font_size = 16
